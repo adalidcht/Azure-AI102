@@ -39,7 +39,7 @@ Idle seconds before scale down | 120
       - Linear Regression
     - Model Scoring & Evaluation
       - Score Model
-      -   
+      - Evaluate Model
       
     </details>
 
