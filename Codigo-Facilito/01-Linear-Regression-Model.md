@@ -60,4 +60,4 @@ Idle seconds before scale down | 120
 
 ## Designed Model
 
-![Linear Regression Model](Codigo-Facilito/images/regression-model.png)
+![Linear Regression Model](../Codigo-Facilito/images/regression-model.png)
