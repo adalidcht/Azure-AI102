@@ -1,5 +1,5 @@
 # Modelo de regresión con el diseñador
-## 1. Compute
+## 1. Create Compute
 Setting | Selected
 --- | ---
 Virtual machine tier | Dedicated
@@ -9,7 +9,7 @@ Min. Nodes | 0
 Max. Nodes | 2
 Idle seconds before scale down | 120
 
-## 2. Designer
+## 2. Design Model
 - Designer: Create
   <details>
   <summary>
@@ -60,4 +60,30 @@ Idle seconds before scale down | 120
 
 ## Designed Model
 
-![Linear Regression Model](../Codigo-Facilito/images/regression-model.png)
+<figure>
+  <img
+  src="../Codigo-Facilito/images/regression-model.png"
+  alt="Linear Regression Model">
+  <figcaption>Linear Regression Model</figcaption>
+</figure>
+
+## 
+
+<figure>
+  <img
+  src="../Codigo-Facilito/images/prepare-data.png"
+  alt="Prepare Data">
+  <figcaption>Prepare Data</figcaption>
+</figure>
+
+## 
+
+<figure>
+  <img
+  src="../Codigo-Facilito/images/train-evaluate-model.png"
+  alt="train and evaluate model">
+  <figcaption>Train and Evaluate Model</figcaption>
+</figure>
+
+## Deployment
+
