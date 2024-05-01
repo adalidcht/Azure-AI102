@@ -38,7 +38,8 @@ Idle seconds before scale down | 120
     - Machine Learning Algorithms
       - Linear Regression
     - Model Scoring & Evaluation
-      - Score Model   
+      - Score Model
+      -   
       
     </details>
 
