@@ -56,4 +56,8 @@ Idle seconds before scale down | 120
   - Check the running cluster
 
 - Jobs 
-  - Check the running experiment 
+  - Check the running experiment
+
+## Designed Model
+
+![Linear Regression Model](Codigo-Facilito/images/regression-model.png)
