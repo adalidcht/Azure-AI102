@@ -1,4 +1,4 @@
-# Modelo de regresión con el diseñador
+# Linear Regression Model with the Designer
 ## 1. Create Compute
 Setting | Selected
 --- | ---
