@@ -47,7 +47,7 @@ Idle seconds before scale down | 120
   <summary>
   Configure & Submit
   </summary>
-    -  Crear nuevo: car-price-training
+    - Create new: car-price-training
     - Select compute type: Compute Cluster
     - Select Azure ML compute cluster: azml-cluster (created)
   </details>
