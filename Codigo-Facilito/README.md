@@ -2,4 +2,4 @@
 
 
 ## Table of Contents
-- [Regression Model](/01-Linear-Regression-Model.md#modelo-de-regresi%C3%B3n-con-el-dise%C3%B1ador)
+- [Linear Regression Model](/01-Linear-Regression-Model.md#modelo-de-regresi%C3%B3n-con-el-dise%C3%B1ador)
