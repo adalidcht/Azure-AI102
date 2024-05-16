@@ -10,7 +10,7 @@ Max. Nodes | 2
 Idle seconds before scale down | 120
 
 ## 2. Design Model
-- Designer: Create
+- **Designer:** Create
   <details>
   <summary>
   Components
@@ -53,10 +53,10 @@ Idle seconds before scale down | 120
     - Select Azure ML compute cluster: azml-cluster (created)
   </details>
   
-- Manage: Compute
+- **Manage:** Compute
   - Check the running cluster
 
-- Jobs 
+- **Jobs** 
   - Check the running experiment
 
 ## Designed Model
@@ -87,4 +87,5 @@ Idle seconds before scale down | 120
 </figure>
 
 ## Deployment
+- **Jobs**
 
