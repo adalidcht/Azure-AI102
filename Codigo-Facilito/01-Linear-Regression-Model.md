@@ -128,6 +128,62 @@ Idle seconds before scale down | 120
         ```
       </details>
 
+- **Jobs** -> Deploy
+  - Deploy a new real-time endpoint
+    - Name: predict-auto-price
+    - Description: Auto price regression
+    - Compute type: Azure Container Instance
+
+Test the service
+ - **Endpoints**
+   - Test tab
+     - Delete the current data under Input data to test endpoint
+       <details>
+        <summary>Data</summary>
+ 
+        ```python
+        
+         {
+       "Inputs": {
+                   "WebServiceInput0":
+                   [
+                       {
+                           "symboling": 3,
+                           "normalized-losses": 1.0,
+                           "make": "alfa-romero",
+                           "fuel-type": "gas",
+                           "aspiration": "std",
+                           "num-of-doors": "two",
+                           "body-style": "convertible",
+                           "drive-wheels": "rwd",
+                           "engine-location": "front",
+                           "wheel-base": 88.6,
+                           "length": 168.8,
+                           "width": 64.1,
+                           "height": 48.8,
+                           "curb-weight": 2548,
+                           "engine-type": "dohc",
+                           "num-of-cylinders": "four",
+                           "engine-size": 130,
+                           "fuel-system": "mpfi",
+                           "bore": 3.47,
+                           "stroke": 2.68,
+                           "compression-ratio": 9,
+                           "horsepower": 111,
+                           "peak-rpm": 5000,
+                           "city-mpg": 21,
+                           "highway-mpg": 27
+                       }
+                   ]
+               },
+       "GlobalParameters": {}
+       }
+
+        ```
+      </details>
+
+
+
 ## 3.1 Model Inference
 
 <figure>
