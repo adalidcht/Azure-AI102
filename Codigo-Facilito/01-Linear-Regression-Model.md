@@ -16,9 +16,9 @@ Idle seconds before scale down | 120
   Components
   </summary>
   
-    - Sample Data
+    - _Sample Data_
       - Automobile Price Data (Raw)
-    - Data Transformations
+    - _Data Transformations_
       - Select Columns in Dataset
         - by name
         - add all
@@ -32,12 +32,12 @@ Idle seconds before scale down | 120
       - Split Data
         - Fraction of rows in the first output dataset: 0.7
         - Random seed: 123
-    - Model Training
+    - _Model Training_
       - Train Model
         - Column names: price
-    - Machine Learning Algorithms
+    - _Machine Learning Algorithms_
       - Linear Regression
-    - Model Scoring & Evaluation
+    - _Model Scoring & Evaluation_
       - Score Model
       - Evaluate Model
       
