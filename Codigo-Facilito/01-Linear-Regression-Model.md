@@ -86,7 +86,7 @@ Idle seconds before scale down | 120
   <figcaption>Train and Evaluate Model</figcaption>
 </figure>
 
-## Deployment
+## 3. Deployment
 - **Jobs**
   - `...` > Create Inference Pipeline > Real-Time Inference Pipeline
 - **Designer**
