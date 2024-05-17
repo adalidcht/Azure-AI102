@@ -59,7 +59,7 @@ Idle seconds before scale down | 120
 - **Jobs** 
   - Check the running experiment
 
-## Designed Model
+## 2.1 Designed Model
 
 <figure>
   <img
@@ -128,7 +128,7 @@ Idle seconds before scale down | 120
         ```
       </details>
 
-## Model Inference
+## 3.1 Model Inference
 
 <figure>
   <img
