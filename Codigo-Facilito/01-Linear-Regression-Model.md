@@ -91,6 +91,7 @@ Idle seconds before scale down | 120
   - `...` > Create Inference Pipeline > Real-Time Inference Pipeline
 - **Designer**
   - Eliminate "Data RAW"
+  - Web service input
   - Data Input and Output
     - Enter Data Manually
       <details>
@@ -106,7 +107,7 @@ Idle seconds before scale down | 120
         ```
       </details>
       
-      > You need two inputs
+      > You need two inputs (Web Service Input, Enter Data Manually)
       >
       > Edit "Select Column" 
   - Python Language
