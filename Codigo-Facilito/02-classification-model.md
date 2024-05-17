@@ -39,3 +39,15 @@ Configure & Submit
 - Select compute type: Compute Cluster
 - Select Azure ML compute cluster: azml-cluster (created)
 </details>
+
+## Designed Model
+
+<figure>
+  <img
+  src="../Codigo-Facilito/images/classification_model.png"
+  alt="Designed Model">
+  <figcaption>Designed Model</figcaption>
+</figure>
+
+
+
