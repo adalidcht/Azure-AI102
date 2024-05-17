@@ -1,4 +1,4 @@
-# Linear Regression Model with the Designer
+# [Linear Regression Model with the Designer](https://microsoftlearning.github.io/AI-900-AIFundamentals/instructions/02a-create-regression-model.html#create-and-run-an-inference-pipeline)
 ## 1. Create Compute
 Setting | Selected
 --- | ---
@@ -88,4 +88,42 @@ Idle seconds before scale down | 120
 
 ## Deployment
 - **Jobs**
+  - `...` > Create Inference Pipeline > Real-Time Inference Pipeline
+- **Designer**
+  - Eliminate "Data RAW"
+  - Data Input and Output
+    - Enter Data Manually
+      <details>
+        <summary>Data</summary>
+ 
+        ```
+        
+         symboling,normalized-losses,make,fuel-type,aspiration,num-of-doors,body-style,drive-wheels,engine-location,wheel-base,length,width,height,curb-weight,engine-type,num-of-cylinders,engine-size,fuel-system,bore,stroke,compression-ratio,horsepower,peak-rpm,city-mpg,highway-mpg
+         3,NaN,alfa-romero,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9,111,5000,21,27
+         3,NaN,alfa-romero,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9,111,5000,21,27
+         1,NaN,alfa-romero,gas,std,two,hatchback,rwd,front,94.5,171.2,65.5,52.4,2823,ohcv,six,152,mpfi,2.68,3.47,9,154,5000,19,26
 
+        ```
+      </details>
+      
+      > You need two inputs
+      >
+      > Edit "Select Column" 
+  - Python Language
+    - Execute Python Script
+      <details>
+        <summary>Example Code</summary>
+ 
+        ```python
+        
+        import pandas as pd
+
+        def azureml_main(dataframe1 = None, dataframe2 = None):
+
+        scored_results = dataframe1[['Scored Labels']]
+        scored_results.rename(columns={'Scored Labels':'predicted price'},
+                    inplace=True)    
+        return scored_results
+
+        ```
+      </details>
