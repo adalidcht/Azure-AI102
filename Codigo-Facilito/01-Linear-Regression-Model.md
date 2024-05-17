@@ -127,3 +127,13 @@ Idle seconds before scale down | 120
 
         ```
       </details>
+
+## Model
+
+<figure>
+  <img
+  src="../Codigo-Facilito/images/.png"
+  alt="Linear Regression Model Inference">
+  <figcaption>Linear Regression Model Inference</figcaption>
+</figure>
+
